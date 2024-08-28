@@ -1,0 +1,224 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 1px;
+    ;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center
+}
+
+form {
+    display: flex;
+
+}
+
+.search-user_submit {
+    /* background-color: black; */
+    width: 20px;
+}
+
+.search-user_submit button {
+    height: 63px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    background-size: cover;
+}
+
+.search-user_submit ion-icon {
+    padding: 10px 0 0 0 ;
+}
+
+.main_section form input {
+    width: 500px;
+    padding: 15px;
+    font-size: 25px;
+
+}
+
+.main_section form input:focus {
+    outline: 0;
+}
+.user_details {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 1280px;
+
+}
+
+#profimg {
+    position: relative;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 320px;
+    height: 380px;
+}
+
+#profimg:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 10px gray;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+
+.projects h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+
+
+.card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 30px;
+    width: 700px;
+    height: 60px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1) inset, -3px -3px 4px rgba(0, 0, 0, 0.1) inset;
+    font-family: Arial, sans-serif;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #33475b;
+
+}
+
+.badge {
+    display: inline-block;
+    background-color: #f06529;
+    color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #6c757d;
+ 
+}
+
+.details p {
+   padding-bottom: 10px;
+}
+.details p{
+    color: blue;
+    font-size: 18px;
+}
+.stars{
+    position: relative;
+    left: 20px;
+}
+.branch{
+    position: relative;
+    left: 30px;
+}
+/* profile css */
+.username {
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    margin: 0;
+    padding: 10px;
+}
+
+.status {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15px;
+}
+
+.followers_following{
+    display: flex;
+    /* gap: -20px; */
+    position: relative;
+    left: 20px;
+    
+}
+/* .following p span{
+    position: relative;
+    left: 10px;
+} */
+.followers_following p ion-icon {
+    position: relative;
+    font-size: 25px;
+    color: blue;
+    right: 12px;
+
+}
+.followers_following p {
+    position: relative;
+    left: 20px;
+}
+.dot{
+    font-size: 25px;
+    position: relative;
+    top: 18px;
+    left: 30px;
+    font-weight: bold;
+}
+.company{
+    position: relative;
+    left: 25px;
+    top: -20px;
+    font-size: 20px;
+}
+
+ .fun{
+    position: relative;
+    left: 10px;
+} 
+
+.location{
+    position: relative;
+    left: 40px;
+    top: -30px;
+}
+.location p .fa-map-marker{
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+}
+.loader{
+    position: absolute;
+    top: 350px;
+    left: 50%;
+}
